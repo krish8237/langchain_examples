@@ -12,7 +12,7 @@ print(messenger.chat({"query" : "Where is the largest building located ?"}))
 prompt = ChatPromptTemplate.from_messages(
     [
         ('system', 'you are an intelligent system that responds about the largest building in trems of height'),
-        ('human', 'Which is the large building in india'),
+        ('human', 'Which is the largest building in india'),
         ('ai', 'Country: India, Building: ABC, Height: 120 feets'),
         ('human', "Answer this question : {country}")
     ]
