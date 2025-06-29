@@ -3,4 +3,6 @@
 - Invoking the Chat model
 - Langchain Expression Language
 - Prompt Templates - **BasePromptTemplate**, **PromptTemplate**
-- Setting up response format using **ChatPromptTemplate**
+- Role based messages (AI/HUMAN/MODEL) - **ChatPromptTemplate**
+- LangGraph Example - **StateGraph, START, STOP, Edges, Conditional Edges, Nodes**
+- LangGraph Example with **LangSmith UI** for Tracing
