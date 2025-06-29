@@ -1,2 +1,6 @@
 langchain
+langchain_community
 langchain-google-genai
+langchain-openai
+langgraph
+langgraph-cli

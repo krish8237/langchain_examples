@@ -3,7 +3,7 @@ from langchain_core.prompts import PromptTemplate
 from config import ConfigReader
 import sys
 
-config = ConfigReader("config.yaml")
+config = ConfigReader("../config.yaml")
 
 class SampleChat:
     def __init__(self, template):

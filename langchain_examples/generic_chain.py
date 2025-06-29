@@ -2,7 +2,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import BasePromptTemplate
 import config
 
-conf = config.ConfigReader('config.yaml')
+conf = config.ConfigReader('../config.yaml')
 
 class GenericChainInvoker():
 
